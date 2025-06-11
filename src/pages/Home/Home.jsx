@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { useFetch } from "../../hooks/useFetch";
 import { useFavorites } from "../../hooks/useFavorites";
@@ -34,8 +35,8 @@ function Home() {
       <div className={styles.header}>
         <h1>Users</h1>
         <nav className={styles.nav}>
-          <a href="/">Home</a>
-          <a href="/favorites">Favorites</a>
+          <Link to="/">Home</Link>
+          <Link to="/favorites">Favorites</Link>
         </nav>
       </div>
 
