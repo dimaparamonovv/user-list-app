@@ -1,0 +1,19 @@
+.controls {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.controls input {
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.controls button {
+  background: green;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+}
